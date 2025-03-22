@@ -90,6 +90,12 @@
   }
 }
 
+#portfolio_photo {
+  margin-left: 30px;
+  border: 10px #6c63ff solid;
+  border-radius: 50%;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
