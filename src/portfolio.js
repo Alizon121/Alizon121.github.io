@@ -50,14 +50,14 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "FULL STACK DEVELOPER WHO WANTS TO CONTINUE LEANRING AN CHALLENGE HIMSELF",
+    "FULL STACK DEVELOPER WHO WANTS TO CONTINUE LEARNING AND CHALLENGE HIMSELF",
   skills: [
     emoji(
       "⚡ Develop highly interactive frontend and backend for web applications"
     ),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of paclages and libraries to create robust and user-friendly applications"
+      "⚡ Integration of packages and libraries to create robust and user-friendly applications"
     )
   ],
 
@@ -125,7 +125,7 @@ const educationInfo = {
     {
       schoolName: "AppAcademy",
       logo: require("./assets/images/appacademylogo.png"),
-      subHeader: "Certificat in Software Engineering",
+      subHeader: "Certificate in Software Engineering",
       duration: "March 2024 - April 2025"
     },
     {
@@ -175,10 +175,10 @@ const workExperiences = {
       companylogo: require("./assets/images/SNHD.jpeg"),
       date: "November 2021 - February 2024",
       descBullets: [
-        "Conducted regulatory visits in food establishments to ensure compliance with mandated food service rules and regulations.",
-        "Collaborated within a small, dynamic team to address and resolve issues related to food establishments, fostering effective communication and teamwork.",
-        "Served as a Spanish translator for colleagues and food establishment operators during regulatory visits, facilitating clear communication and understanding."
-      ]
+        "Conducted detailed regulatory assessments, demonstrating analytical thinking and attention to detail—key skills for debugging and quality assurance in software development.",
+        "Collaborated within a dynamic team to problem-solve and communicate effectively, mirroring Agile development and cross-functional teamwork in software engineering.",
+        "Acted as a Spanish translator, improving accessibility and communication—comparable to writing clear documentation and enhancing user experience."
+              ]
     },
     {
       role: "Patient Access Associate",
@@ -186,9 +186,10 @@ const workExperiences = {
       companylogo: require("./assets/images/inova.webp"),
       date: "September 2018 – March 2020",
       descBullets: [
-        "Effectively communicated with patients and families arriving at the Emergency Department and other hospital units during evening and weekend shifts.",
-        "Managed patient admissions and registrations, ensuring accurate updates to demographic and insurance information.",
-        "Proficient in using EPIC systems to input, update, and manage personal patient data."
+        "Interfaced with patients and families in high-pressure situations, strengthening problem-solving and customer-centric thinking, which are valuable in user-focused development.",
+        "Managed patient data with EPIC systems, gaining experience in database entry and management, a foundation for working with SQL and data structures.",
+        "Ensured accuracy in demographic and insurance data, honing precision and attention to detail—critical for writing efficient and error-free code."
+
       ]
     }
   ]
@@ -237,7 +238,7 @@ const bigProjects = {
       image: require("./assets/images/betaoverflow1.png"),
       projectName: "BetaOverflow",
       projectDesc:
-        "A full-stack app that allows users to post questions and generate responses for all things regarding rock climbing.",
+        "A full-stack application that allows users to post questions and generate responses for all things rock climbing.",
       footerLink: [
         {
           name: "Visit Website",
