@@ -7,7 +7,8 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
+  educationInfo,
+  // openSource,
   blogSection,
   talkSection,
   achievementSection,
@@ -17,7 +18,8 @@ import {
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
+  // const viewOpenSource = openSource.display;
+  const viewEducation = educationInfo.display
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
@@ -41,19 +43,24 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          {viewResume && (
+            <li>
+              <a href="#resume">Resume</a>
+            </li>
+          )}
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
             </li>
           )}
+          {viewEducation && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
-            </li>
-          )}
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">Open Source</a>
             </li>
           )}
           {viewAchievement && (
@@ -69,11 +76,6 @@ function Header() {
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
-            </li>
-          )}
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
             </li>
           )}
           <li>
