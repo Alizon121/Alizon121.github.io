@@ -57,7 +57,7 @@ export default function Greeting() {
               // <DisplayLottie animationData={landingPerson} />
               <img
                 id="portfolio_photo"
-                src={require("../../assets/images/andrew_lizon_photo.jpg")}
+                src={require("../../assets/images/andrew_lizon_photo.png")}
                 alt="Andrew Lizon"
               ></img>
             ) : (
