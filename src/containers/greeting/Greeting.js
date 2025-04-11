@@ -42,8 +42,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href="/resume.pdf"
-                    download="resume.pdf"
+                    href="https://your-site.netlify.app/resume.pdf"
+                    download="Resume.pdf"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
