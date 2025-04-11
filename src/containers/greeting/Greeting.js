@@ -42,7 +42,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href="https://your-site.netlify.app/resume.pdf"
+                    href="https://docs.google.com/document/d/1ClXMqLoM0a9-beobduBIePcIXrlvI6-Pv1FOjQLyw7I/edit?tab=t.0"
                     download="Resume.pdf"
                     className="download-link-button"
                   >
