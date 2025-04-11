@@ -54,7 +54,6 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              // <DisplayLottie animationData={landingPerson} />
               <img
                 id="portfolio_photo"
                 src={require("../../assets/images/andrew_lizon_photo.png")}
